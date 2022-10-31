@@ -9,10 +9,16 @@ h1 {
 	font-size: 5rem;
 	text-shadow: 3px 0 #da0463;
 }
-
+header {
+	height: 20vh;
+}
+main {
+	height: 70vh;
+}
 footer {
 	color: #dbedf3;
 	font-family: sans-serif;
+	height: 10vh;
 }
 
 .w {
@@ -63,6 +69,7 @@ footer {
 
 .drum {
 	background-color: white;
+	background-size: cover;
 	border: 10px solid #404b69;
 	border-radius: 15px;
 	color: #da0463;
@@ -77,4 +84,16 @@ footer {
 	text-align: center;
 	text-shadow: 3px 0 #dbedf3;
 	width: 150px;
+}
+
+@media screen and (max-width: 991px) {
+	h1 {
+		font-size: 3rem;
+	}
+	.drum {
+		background-size: cover;
+		font-size: 3rem;
+		height: 100px;
+		width: 100px;
+	}
 }
