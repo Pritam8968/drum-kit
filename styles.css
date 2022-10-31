@@ -10,17 +10,28 @@ h1 {
 	text-shadow: 3px 0 #da0463;
 }
 header {
-	height: 20vh;
+	height: 20%;
 }
 main {
-	height: 70vh;
+	height: 70%;
 }
 footer {
 	color: #dbedf3;
 	font-family: sans-serif;
-	height: 10vh;
+	height: 10%;
+	padding-top: 20px;
 }
-
+footer a {
+	color: #dbedf3;
+	display: block;
+	margin: 30px auto 0;
+	text-decoration: none;
+	width: 50%;
+}
+footer a:hover {
+	color: #da0463;
+	transform: scale(1.2);
+}
 .w {
 	background: url("images/tom1.png");
 }
